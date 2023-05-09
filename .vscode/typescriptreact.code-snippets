@@ -34,5 +34,9 @@
     "Comment small": {
         "prefix": "comment-small",
         "body": "/*====================== $1 ======================*/"
+    },
+    "GraphQL type definition": {
+        "prefix": "gql",
+        "body": "export const $1 = `#graphql\n    $2\n`"
     }
 }

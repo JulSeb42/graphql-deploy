@@ -2,7 +2,7 @@
 
 import { Schema, model } from "mongoose"
 
-const userSchema = new Schema(
+const UserSchema = new Schema(
     {
         email: {
             type: String,
@@ -26,4 +26,4 @@ const userSchema = new Schema(
     { timestamps: true }
 )
 
-export const UserModel = model("User", userSchema)
+export const UserModel = model("User", UserSchema)
