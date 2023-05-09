@@ -3,7 +3,7 @@
 import "dotenv/config"
 
 export const MONGODB_URI =
-    process.env.MONGODB_URI || "mongodb://localhost/vite-apollo"
+    process.env.MONGODB_URI || "mongodb://localhost/graphql-deploy"
 
 export const PORT: number = parseInt(process.env.PORT || "5005")
 
